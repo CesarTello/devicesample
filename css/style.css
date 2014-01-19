@@ -4,6 +4,69 @@
 * http://www.pancanal.com
 *
 */
+/* Standard 960 or larger (browsers) */
+@media only screen and (min-width: 960px) {
+	.ui-content #myimage  a{
+    background: url("images/denegado960.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: block;
+    height:599px;
+	width:900px;	
+    margin-left: auto;
+    margin-right: auto;	
+	padding:0;
+}
+
+}
+/* ---------------------------------------------------------------------- */
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+	.ui-content #myimage  a{
+    background: url("images/denegado600.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: block;
+    height:399px;
+	width:600px;	
+    margin-left: auto;
+    margin-right: auto;	
+	padding:0;
+}
+
+}
+
+/* ---------------------------------------------------------------------- */
+/* Smaller than standard 650 (devices and browsers) */
+@media only screen and (max-width: 650px) {
+	.ui-content #myimage  a{
+    background: url("images/denegado480.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: block;
+    height:320px;
+	width:480px;	
+    margin-left: auto;
+    margin-right: auto;	
+	padding:0;
+}
+
+}
+
+/* ---------------------------------------------------------------------- */
+/* Smaller than standard 520 (devices and browsers) */
+@media only screen and (max-width: 520px) {
+.ui-content #myimage  a{
+    background: url("images/denegado.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: block;
+    height:213px;
+	width:320px;	
+    margin-left: auto;
+    margin-right: auto;	
+	padding:0;
+}
+}
+
+}
+.ui-content #myimage {
+	width:100%;
+	padding:0;
+	margin:0;
+}
 .header-cnt #logo a {
     background: url("images/loginacplogo.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
     display: block;
@@ -13,15 +76,7 @@
     margin-right: auto;	
 	padding:0;
 }
-.ui-content #myimage  {
-    background: url("images/denegado.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
-    display: block;
-    height: auto;
-	width:95%;
-    margin-left: auto;
-    margin-right: auto;	
-	padding:0;
-}
+
 .header-cnt #logo {
 	width:100%;
 	padding:0;
@@ -50,3 +105,4 @@
 	width:150px;
 	padding:0;
 }
+
